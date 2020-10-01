@@ -1,0 +1,21 @@
+<RCC>
+    <qresource prefix="/Pictures">
+        <file>ship.png</file>
+        <file>starterbullet.png</file>
+        <file>secondbullet.png</file>
+        <file>finalbullet.png</file>
+        <file>enemybullet.png</file>
+        <file>enemy1.png</file>
+        <file>secondenemy.png</file>
+        <file>finalenemy.png</file>
+    </qresource>
+    <qresource prefix="/Sounds">
+        <file>starterbulletsound.wav</file>
+        <file>secondbullet.wav</file>
+        <file>finalbullet.wav</file>
+        <file>enemybullet.wav</file>
+        <file>firstenemy.wav</file>
+        <file>secondenemy.wav</file>
+        <file>finalenemy.wav</file>
+    </qresource>
+</RCC>

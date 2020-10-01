@@ -1,0 +1,72 @@
+\hypertarget{classBullet}{}\section{Bullet Class Reference}
+\label{classBullet}\index{Bullet@{Bullet}}
+
+
+\hyperlink{classBullet}{Bullet} base class.  
+
+
+
+
+{\ttfamily \#include $<$bullet.\+h$>$}
+
+Inheritance diagram for Bullet\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.937063cm]{classBullet}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classBullet_aaeafe4ef62aa04e13e93203a7a9066eb}\label{classBullet_aaeafe4ef62aa04e13e93203a7a9066eb}} 
+virtual void \hyperlink{classBullet_aaeafe4ef62aa04e13e93203a7a9066eb}{move} ()=0
+\begin{DoxyCompactList}\small\item\em will define the movement in the subclasses \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classBullet_ae06db7b162490a47736a5e8a61aa2d5f}\label{classBullet_ae06db7b162490a47736a5e8a61aa2d5f}} 
+void \hyperlink{classBullet_ae06db7b162490a47736a5e8a61aa2d5f}{play\+Sound} ()
+\begin{DoxyCompactList}\small\item\em plays the bullet\+Sound Q\+Media\+Player object with the \hyperlink{classsoundPlayer_a1d187e2c442666b8faa74d07a3694edb}{boom()} function from \hyperlink{classsoundPlayer}{sound\+Player} \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBullet_a682701fa7f9d4a9564dbcd6ed3f73588}\label{classBullet_a682701fa7f9d4a9564dbcd6ed3f73588}} 
+int \hyperlink{classBullet_a682701fa7f9d4a9564dbcd6ed3f73588}{get\+Damage} ()
+\begin{DoxyCompactList}\small\item\em Returns the amount of damage that a bullet inflicts. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBullet_aaa0132f847fa70a1fcaf165a33e638b1}\label{classBullet_aaa0132f847fa70a1fcaf165a33e638b1}} 
+void \hyperlink{classBullet_aaa0132f847fa70a1fcaf165a33e638b1}{set\+Damage} (int arg)
+\begin{DoxyCompactList}\small\item\em Sets the amount of damage that a bullet inflcits. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBullet_a00ffc9297154f11493f0a664ae2f4f40}\label{classBullet_a00ffc9297154f11493f0a664ae2f4f40}} 
+std\+::pair$<$ int, int $>$ \hyperlink{classBullet_a00ffc9297154f11493f0a664ae2f4f40}{get\+Velocity} ()
+\begin{DoxyCompactList}\small\item\em Returns the velocity of a bullet. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBullet_a9dc2cc1401e02fdb9632ea8fac34cb11}\label{classBullet_a9dc2cc1401e02fdb9632ea8fac34cb11}} 
+void \hyperlink{classBullet_a9dc2cc1401e02fdb9632ea8fac34cb11}{set\+Velocity} (std\+::pair$<$ int, int $>$ arg)
+\begin{DoxyCompactList}\small\item\em Sets the velocity of a bullet. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBullet_a87d32d76ae8f43839013eea1cfc07625}\label{classBullet_a87d32d76ae8f43839013eea1cfc07625}} 
+Q\+Media\+Player $\ast$ \hyperlink{classBullet_a87d32d76ae8f43839013eea1cfc07625}{get\+Sound} ()
+\begin{DoxyCompactList}\small\item\em Returns a pointer to the Q\+Media\+Player object bullet\+Sound (eg. the variable that plays the bullet\textquotesingle{}s sound) \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBullet_a07e1aa135f6eafc3c2b1b2938138d1fe}\label{classBullet_a07e1aa135f6eafc3c2b1b2938138d1fe}} 
+void \hyperlink{classBullet_a07e1aa135f6eafc3c2b1b2938138d1fe}{set\+Sound} (Q\+Media\+Player $\ast$arg)
+\begin{DoxyCompactList}\small\item\em Used to set the bullet\+Sound to the Q\+Media\+Player object that is sent in. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBullet_a6266a742a36672d1b023652f3ece4905}\label{classBullet_a6266a742a36672d1b023652f3ece4905}} 
+Q\+Timer $\ast$ \hyperlink{classBullet_a6266a742a36672d1b023652f3ece4905}{get\+Timer} ()
+\begin{DoxyCompactList}\small\item\em Returns a pointer to the Q\+Media\+Player object timer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBullet_aa1e71a5ffbf610056f80bb54f2cde99f}\label{classBullet_aa1e71a5ffbf610056f80bb54f2cde99f}} 
+void \hyperlink{classBullet_aa1e71a5ffbf610056f80bb54f2cde99f}{set\+Timer} (Q\+Timer $\ast$arg)
+\begin{DoxyCompactList}\small\item\em Used to set the timer to the Q\+Media\+Player that is sent in. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBullet_a2a2d4ad5cca3dddb9eff382d7d1e4a1f}\label{classBullet_a2a2d4ad5cca3dddb9eff382d7d1e4a1f}} 
+\hyperlink{structConstants}{Constants} \hyperlink{classBullet_a2a2d4ad5cca3dddb9eff382d7d1e4a1f}{get\+Constants} ()
+\begin{DoxyCompactList}\small\item\em Returns the constants of the game. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classBullet_a394d03770cab61762a5928e54a08174a}\label{classBullet_a394d03770cab61762a5928e54a08174a}} 
+bool \hyperlink{classBullet_a394d03770cab61762a5928e54a08174a}{contact} (Q\+List$<$ Q\+Graphics\+Item $\ast$$>$ arg, Q\+Graphics\+Item $\ast$kula)
+\begin{DoxyCompactList}\small\item\em Deletes objects that collide with bullets. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classBullet}{Bullet} base class. 
+
+\hyperlink{classBullet}{Bullet} base class.
+
+Inherits from Q\+Object, Q\+Graphics\+Pix\+Item and \hyperlink{classsoundPlayer}{sound\+Player}. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+bullet.\+h\item 
+bullet.\+cpp\end{DoxyCompactItemize}

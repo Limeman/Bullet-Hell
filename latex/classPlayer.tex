@@ -1,0 +1,58 @@
+\hypertarget{classPlayer}{}\section{Player Class Reference}
+\label{classPlayer}\index{Player@{Player}}
+
+
+The \hyperlink{classPlayer}{Player} class, handles player logic and is used to spawn enemies.  
+
+
+
+
+{\ttfamily \#include $<$player.\+h$>$}
+
+Inheritance diagram for Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classPlayer}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPlayer_a60c45a096af43067179eb8c805e1e76d}\label{classPlayer_a60c45a096af43067179eb8c805e1e76d}} 
+void \hyperlink{classPlayer_a60c45a096af43067179eb8c805e1e76d}{move\+Player} ()
+\begin{DoxyCompactList}\small\item\em moves the player \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classPlayer_a59ae3f2c7151032a85e58b1591cad769}\label{classPlayer_a59ae3f2c7151032a85e58b1591cad769}} 
+void \hyperlink{classPlayer_a59ae3f2c7151032a85e58b1591cad769}{spawn} ()
+\begin{DoxyCompactList}\small\item\em spawns enemys \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classPlayer_aa7a25ab9a055e6483c5af1940ce28b74}\label{classPlayer_aa7a25ab9a055e6483c5af1940ce28b74}} 
+void \hyperlink{classPlayer_aa7a25ab9a055e6483c5af1940ce28b74}{check\+Score} ()
+\begin{DoxyCompactList}\small\item\em checks the score, increases the level when points are high enough \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classPlayer_a615de784bd638d443df5d828535d4018}\label{classPlayer_a615de784bd638d443df5d828535d4018}} 
+void \hyperlink{classPlayer_a615de784bd638d443df5d828535d4018}{check\+Health} ()
+\begin{DoxyCompactList}\small\item\em Checks the player health. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classPlayer_aa3689d20c55d7dfe735cf47c2d6d7dbb}\label{classPlayer_aa3689d20c55d7dfe735cf47c2d6d7dbb}} 
+\hyperlink{classPlayer_aa3689d20c55d7dfe735cf47c2d6d7dbb}{Player} (Q\+Graphics\+Pixmap\+Item $\ast$parent=0)
+\begin{DoxyCompactList}\small\item\em Constructor. \end{DoxyCompactList}\item 
+void \hyperlink{classPlayer_a4d269c4118c29b0ee85c1e0f674260ee}{key\+Press\+Event} (Q\+Key\+Event $\ast$event)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classPlayer}{Player} class, handles player logic and is used to spawn enemies. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classPlayer_a4d269c4118c29b0ee85c1e0f674260ee}\label{classPlayer_a4d269c4118c29b0ee85c1e0f674260ee}} 
+\index{Player@{Player}!key\+Press\+Event@{key\+Press\+Event}}
+\index{key\+Press\+Event@{key\+Press\+Event}!Player@{Player}}
+\subsubsection{\texorpdfstring{key\+Press\+Event()}{keyPressEvent()}}
+{\footnotesize\ttfamily void Player\+::key\+Press\+Event (\begin{DoxyParamCaption}\item[{Q\+Key\+Event $\ast$}]{event }\end{DoxyParamCaption})}
+
+key\+Press\+Event Used to take input form the player 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+player.\+h\item 
+player.\+cpp\end{DoxyCompactItemize}

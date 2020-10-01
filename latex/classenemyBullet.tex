@@ -1,0 +1,55 @@
+\hypertarget{classenemyBullet}{}\section{enemy\+Bullet Class Reference}
+\label{classenemyBullet}\index{enemy\+Bullet@{enemy\+Bullet}}
+
+
+The \hyperlink{classenemyBullet}{enemy\+Bullet} class, inherits from the baseclass \hyperlink{classBullet}{Bullet}.  
+
+
+
+
+{\ttfamily \#include $<$enemybullet.\+h$>$}
+
+Inheritance diagram for enemy\+Bullet\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classenemyBullet}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classenemyBullet_a2e2e8de44bed2bff6b949b39a61efba9}{player\+Contact} (Q\+List$<$ Q\+Graphics\+Item $\ast$$>$ arg, \hyperlink{classenemyBullet}{enemy\+Bullet} $\ast$kula)
+\begin{DoxyCompactList}\small\item\em When a bullet hits the player. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classenemyBullet}{enemy\+Bullet} class, inherits from the baseclass \hyperlink{classBullet}{Bullet}. 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classenemyBullet_a2e2e8de44bed2bff6b949b39a61efba9}\label{classenemyBullet_a2e2e8de44bed2bff6b949b39a61efba9}} 
+\index{enemy\+Bullet@{enemy\+Bullet}!player\+Contact@{player\+Contact}}
+\index{player\+Contact@{player\+Contact}!enemy\+Bullet@{enemy\+Bullet}}
+\subsubsection{\texorpdfstring{player\+Contact()}{playerContact()}}
+{\footnotesize\ttfamily bool enemy\+Bullet\+::player\+Contact (\begin{DoxyParamCaption}\item[{Q\+List$<$ Q\+Graphics\+Item $\ast$$>$}]{arg,  }\item[{\hyperlink{classenemyBullet}{enemy\+Bullet} $\ast$}]{kula }\end{DoxyParamCaption})}
+
+
+
+When a bullet hits the player. 
+
+player\+Contact 
+\begin{DoxyParams}{Parameters}
+{\em arg} & \\
+\hline
+{\em kula} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+True if the player has been hit, False if not
+\end{DoxyReturn}
+Traverse the Q\+List (arg) of colliding\+Items If the player has been hit, decrease the players health. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+enemybullet.\+h\item 
+enemybullet.\+cpp\end{DoxyCompactItemize}

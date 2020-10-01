@@ -1,0 +1,73 @@
+\hypertarget{classEnemy}{}\section{Enemy Class Reference}
+\label{classEnemy}\index{Enemy@{Enemy}}
+
+
+The \hyperlink{classEnemy}{Enemy} class, base class for all enemy objects.  
+
+
+
+
+{\ttfamily \#include $<$enemy.\+h$>$}
+
+Inheritance diagram for Enemy\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classEnemy}
+\end{center}
+\end{figure}
+\subsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classEnemy_a1c208ac4a80b892f9692222bcb96f6ae}\label{classEnemy_a1c208ac4a80b892f9692222bcb96f6ae}} 
+virtual void \hyperlink{classEnemy_a1c208ac4a80b892f9692222bcb96f6ae}{move} ()=0
+\begin{DoxyCompactList}\small\item\em Will move the enemy object in the subclasses. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_a3208d68423cd0c79d5f2528ebb849dc5}\label{classEnemy_a3208d68423cd0c79d5f2528ebb849dc5}} 
+virtual void \hyperlink{classEnemy_a3208d68423cd0c79d5f2528ebb849dc5}{shoot} ()=0
+\begin{DoxyCompactList}\small\item\em Will make the enemy shoot a bullet in the subclasses. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classEnemy_ad737566e8e9dfb500dd3e177d27cb7f0}\label{classEnemy_ad737566e8e9dfb500dd3e177d27cb7f0}} 
+void \hyperlink{classEnemy_ad737566e8e9dfb500dd3e177d27cb7f0}{play\+Sound} (Q\+Media\+Player $\ast$arg)
+\begin{DoxyCompactList}\small\item\em Plays the sound that the enemy emits whwn it shoots a bullet. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_a4c66609d3acb845f8cf822e0b47d2c05}\label{classEnemy_a4c66609d3acb845f8cf822e0b47d2c05}} 
+std\+::pair$<$ int, int $>$ \hyperlink{classEnemy_a4c66609d3acb845f8cf822e0b47d2c05}{get\+Velocity} ()
+\begin{DoxyCompactList}\small\item\em Returns the velocity of the enemy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_a01b9949a62e439e49cfe95e0ddecb7fe}\label{classEnemy_a01b9949a62e439e49cfe95e0ddecb7fe}} 
+void \hyperlink{classEnemy_a01b9949a62e439e49cfe95e0ddecb7fe}{set\+Velocity} (std\+::pair$<$ int, int $>$ arg)
+\begin{DoxyCompactList}\small\item\em Sets the velocity of the enemy. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_abe323b8ed67ea623ffb4bab4ff6589e8}\label{classEnemy_abe323b8ed67ea623ffb4bab4ff6589e8}} 
+Q\+Timer $\ast$ \hyperlink{classEnemy_abe323b8ed67ea623ffb4bab4ff6589e8}{get\+Timer} ()
+\begin{DoxyCompactList}\small\item\em Returns a pointer to the timer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_ab30ff18d935a67f440bec8d07d48e2e2}\label{classEnemy_ab30ff18d935a67f440bec8d07d48e2e2}} 
+void \hyperlink{classEnemy_ab30ff18d935a67f440bec8d07d48e2e2}{set\+Timer} (Q\+Timer $\ast$arg)
+\begin{DoxyCompactList}\small\item\em Sets the timer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_abda21c8dcacf52f59de732d56c7ac012}\label{classEnemy_abda21c8dcacf52f59de732d56c7ac012}} 
+Q\+Media\+Player $\ast$ \hyperlink{classEnemy_abda21c8dcacf52f59de732d56c7ac012}{get\+Sound} ()
+\begin{DoxyCompactList}\small\item\em Returns a pointer to the Q\+Media\+Player explosion\+Sound. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_a656c43919f972077f20916577594e148}\label{classEnemy_a656c43919f972077f20916577594e148}} 
+void \hyperlink{classEnemy_a656c43919f972077f20916577594e148}{set\+Sound} (Q\+Media\+Player $\ast$arg)
+\begin{DoxyCompactList}\small\item\em Sets the sound. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_a7d36994bba593bb623e943f9264f901b}\label{classEnemy_a7d36994bba593bb623e943f9264f901b}} 
+int \hyperlink{classEnemy_a7d36994bba593bb623e943f9264f901b}{get\+Damage} ()
+\begin{DoxyCompactList}\small\item\em Returns the amount of damage that an enemy inflicts. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_ac66eb36302dfb355da9b5b397b165f56}\label{classEnemy_ac66eb36302dfb355da9b5b397b165f56}} 
+void \hyperlink{classEnemy_ac66eb36302dfb355da9b5b397b165f56}{set\+Damage} (int \&arg)
+\begin{DoxyCompactList}\small\item\em Sets the damage. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_a826bba4cc09bc31cb2512891b797468a}\label{classEnemy_a826bba4cc09bc31cb2512891b797468a}} 
+Q\+Timer $\ast$ \hyperlink{classEnemy_a826bba4cc09bc31cb2512891b797468a}{get\+Shooter\+Timer} ()
+\begin{DoxyCompactList}\small\item\em Returns a pointer to the Q\+Timer shooter\+Timer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_ac23a9c502aa5004cb211f0582e876867}\label{classEnemy_ac23a9c502aa5004cb211f0582e876867}} 
+void \hyperlink{classEnemy_ac23a9c502aa5004cb211f0582e876867}{set\+Shooter\+Timer} (Q\+Timer $\ast$arg)
+\begin{DoxyCompactList}\small\item\em Set the Q\+Timer shooter\+Timer. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classEnemy_af0f8e420ba12100a2069647b0992e4cf}\label{classEnemy_af0f8e420ba12100a2069647b0992e4cf}} 
+\hyperlink{structConstants}{Constants} \hyperlink{classEnemy_af0f8e420ba12100a2069647b0992e4cf}{get\+Constants} ()
+\begin{DoxyCompactList}\small\item\em Returns the constants. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The \hyperlink{classEnemy}{Enemy} class, base class for all enemy objects. 
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+enemy.\+h\end{DoxyCompactItemize}
